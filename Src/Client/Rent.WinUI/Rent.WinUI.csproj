@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5ACD017F-6849-43B8-98BB-5D56BF18989A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rent.WinUI</RootNamespace>
+    <AssemblyName>Rent.WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.2" />
+    <Reference Include="DevExpress.Data.v16.2" />
+    <Reference Include="DevExpress.Images.v16.2, Version=16.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core" />
+    <Reference Include="DevExpress.Utils.v16.2" />
+    <Reference Include="DevExpress.XtraBars.v16.2" />
+    <Reference Include="DevExpress.Sparkline.v16.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v16.2" />
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Concrete\Forms\Contract\FrmContractDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Contract\FrmContractDetail.Designer.cs">
+      <DependentUpon>FrmContractDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Contract\FrmContracts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Contract\FrmContracts.Designer.cs">
+      <DependentUpon>FrmContracts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmBaseAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmBaseAdd.Designer.cs">
+      <DependentUpon>FrmBaseAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmBaseDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmBaseDetail.Designer.cs">
+      <DependentUpon>FrmBaseDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmBaseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmBaseList.designer.cs">
+      <DependentUpon>FrmBaseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Policy\FrmInsurancePolicy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Policy\FrmInsurancePolicy.Designer.cs">
+      <DependentUpon>FrmInsurancePolicy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Mails\FrmMailHeaderDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Mails\FrmMailHeaderDetail.Designer.cs">
+      <DependentUpon>FrmMailHeaderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Mails\FrmMailHeaders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Mails\FrmMailHeaders.Designer.cs">
+      <DependentUpon>FrmMailHeaders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Mails\FrmMailSettingAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Mails\FrmMailSettingAdd.Designer.cs">
+      <DependentUpon>FrmMailSettingAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmUserAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmUserAdd.Designer.cs">
+      <DependentUpon>FrmUserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmUsers.Designer.cs">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmRealityAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmRealityAdd.Designer.cs">
+      <DependentUpon>FrmRealityAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmRealities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmRealities.Designer.cs">
+      <DependentUpon>FrmRealities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmExpenseTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmExpenseTypes.Designer.cs">
+      <DependentUpon>FrmExpenseTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\FrmWaitForm.Designer.cs">
+      <DependentUpon>FrmWaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmTenantAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmTenantAdd.Designer.cs">
+      <DependentUpon>FrmTenantAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmTenants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmTenants.Designer.cs">
+      <DependentUpon>FrmTenants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmExpenseTypeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concrete\Forms\Parameters\FrmExpenseTypeAdd.Designer.cs">
+      <DependentUpon>FrmExpenseTypeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concrete\Helpers\FormOpenHelper.cs" />
+    <Compile Include="Concrete\Helpers\GridHelper.cs" />
+    <Compile Include="Concrete\Helpers\MessageHelper.cs" />
+    <Compile Include="Concrete\Helpers\NetlineAppHelper.cs" />
+    <Compile Include="Concrete\Helpers\ValidationRulesHelper.cs" />
+    <Compile Include="Concrete\NetlineControls\GcDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Concrete\NetlineControls\GcList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RentControls\ceCheckEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\DateEditFormatter.cs" />
+    <Compile Include="RentControls\deDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\IcbPeriodNr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\IcbPeriodType.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\IcbCurrency.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\IcbRealityType.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\IcbExpenseType.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\LuClCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\LuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\LuFirm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\txtTextEditEmail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\txtTextEditPhone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\IcbModule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\se12x0.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\se15x2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\se15x3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\se15x6.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\se5x2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\sluExpenseType.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\sluReality.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\sluTenant.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\sluDbsBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\txtTextEdit100.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\txtTextEdit30.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\txtTextEdit50.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentControls\txtTextEditMaxx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Concrete\Forms\Contract\FrmContractDetail.resx">
+      <DependentUpon>FrmContractDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Contract\FrmContracts.resx">
+      <DependentUpon>FrmContracts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\FrmBaseAdd.resx">
+      <DependentUpon>FrmBaseAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\FrmBaseDetail.resx">
+      <DependentUpon>FrmBaseDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\FrmBaseList.resx">
+      <DependentUpon>FrmBaseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Mails\FrmMailHeaderDetail.resx">
+      <DependentUpon>FrmMailHeaderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Mails\FrmMailHeaders.resx">
+      <DependentUpon>FrmMailHeaders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Mails\FrmMailSettingAdd.resx">
+      <DependentUpon>FrmMailSettingAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmUserAdd.resx">
+      <DependentUpon>FrmUserAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmUsers.resx">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmRealityAdd.resx">
+      <DependentUpon>FrmRealityAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmRealities.resx">
+      <DependentUpon>FrmRealities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmExpenseTypes.resx">
+      <DependentUpon>FrmExpenseTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\FrmWaitForm.resx">
+      <DependentUpon>FrmWaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmTenantAdd.resx">
+      <DependentUpon>FrmTenantAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmTenants.resx">
+      <DependentUpon>FrmTenants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Parameters\FrmExpenseTypeAdd.resx">
+      <DependentUpon>FrmExpenseTypeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concrete\Forms\Policy\FrmInsurancePolicy.resx">
+      <DependentUpon>FrmInsurancePolicy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.ExpenseType.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.InsurancePolicy.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.MailHeader.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.MailHeaderLine.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.Reality.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.RentContract.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.RentContractExpense.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.RentContractReality.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.Tenant.datasource" />
+    <None Include="Properties\DataSources\Rent.Domain.Concrete.Models.Rent.User.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Rent.Core\Rent.Core.csproj">
+      <Project>{33C3CA8C-F502-4AF2-882D-C1EDACEBBB05}</Project>
+      <Name>Rent.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Rent.DataAccess\Rent.DataAccess.csproj">
+      <Project>{F911ADE4-0917-4EE3-B538-FAB4E534E2A5}</Project>
+      <Name>Rent.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Rent.Domain\Rent.Domain.csproj">
+      <Project>{4BB15BA9-AD26-4DC0-B3AD-B8849117A9AD}</Project>
+      <Name>Rent.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Rent.Business\Rent.Business.csproj">
+      <Project>{1D3A1F6F-9FD9-4D23-8316-BA54D2EF558D}</Project>
+      <Name>Rent.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

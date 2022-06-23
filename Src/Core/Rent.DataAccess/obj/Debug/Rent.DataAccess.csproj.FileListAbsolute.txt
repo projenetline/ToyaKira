@@ -1,0 +1,183 @@
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csprojAssemblyReference.cache
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll.config
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CopyComplete
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.dll
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.pdb
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll.config
+C:\Users\NETLINE YAZILIM\source\repos\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.pdb
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll.config
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.pdb
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.pdb
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll.config
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.pdb
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csprojAssemblyReference.cache
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CoreCompileInputs.cache
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CopyComplete
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.pdb
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\DbFiles\config.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll.config
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.pdb
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.pdb
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll.config
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.pdb
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.AssemblyReference.cache
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CoreCompileInputs.cache
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CopyComplete
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\DbFiles\config.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll.config
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll.config
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.AssemblyReference.cache
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CopyComplete
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\DbFiles\config.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll.config
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Dapper.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.Core.dll.config
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Rent.Domain.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Dapper.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Dapper.Contrib.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Memory.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.AssemblyReference.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.csproj.CopyComplete
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.DataAccess\obj\Debug\Rent.DataAccess.pdb

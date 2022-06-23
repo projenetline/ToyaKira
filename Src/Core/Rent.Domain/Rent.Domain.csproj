@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BB15BA9-AD26-4DC0-B3AD-B8849117A9AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rent.Domain</RootNamespace>
+    <AssemblyName>Rent.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Dapper.2.0.123\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper.Contrib, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Dapper.Contrib.2.0.78\lib\net461\Dapper.Contrib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\IEntity.cs" />
+    <Compile Include="Abstract\ILogoEntity.cs" />
+    <Compile Include="Concrete\BaseEntity.cs" />
+    <Compile Include="Concrete\LogoIntegrationSetting.cs" />
+    <Compile Include="Concrete\Models\Logo\LogoBNFLINE.cs" />
+    <Compile Include="Concrete\Models\Logo\LogoDataModel.cs" />
+    <Compile Include="Concrete\Models\Rent\ExpenseType.cs" />
+    <Compile Include="Concrete\Models\Rent\InsurancePolicy.cs" />
+    <Compile Include="Concrete\Models\Rent\LogModel.cs" />
+    <Compile Include="Concrete\Models\Rent\MailHeader.cs" />
+    <Compile Include="Concrete\Models\Rent\MailHeaderLine.cs" />
+    <Compile Include="Concrete\Models\Rent\MailSettings.cs" />
+    <Compile Include="Concrete\Models\Rent\Reality.cs" />
+    <Compile Include="Concrete\Models\Rent\RentContract.cs" />
+    <Compile Include="Concrete\Models\Rent\RentContractExpense.cs" />
+    <Compile Include="Concrete\Models\Rent\RentContractRealities.cs" />
+    <Compile Include="Concrete\Models\Rent\Tenant.cs" />
+    <Compile Include="Concrete\Models\Rent\User.cs" />
+    <Compile Include="Concrete\Models\Rent\WinFormLayout.cs" />
+    <Compile Include="Concrete\Models\Rent\WinFormProperty.cs" />
+    <Compile Include="Concrete\ReferanceData.cs" />
+    <Compile Include="Helpers\TableAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Concrete\Models\Service\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Netline>
+  <ConnectionSettings>
+    <Servername>DESKTOP-QOBJVU7\SERKANPC</Servername>
+    <Databasename>TOYA_RENT</Databasename>
+    <Username>sa</Username>
+    <Password>sas</Password>
+  </ConnectionSettings>
+  <LogoConn>
+    <LogoDBServername>10.0.0.9</LogoDBServername>
+    <LogoDBDatabasename>TIGERPLUS</LogoDBDatabasename>
+    <LogoDBUsername>sa</LogoDBUsername>
+    <LogoDBPassword>net_123</LogoDBPassword>
+    <LogoAppUsername>sa</LogoAppUsername>
+    <LogoAppPassword>net_123</LogoAppPassword>
+    <LogoAppPrNr>1</LogoAppPrNr>
+    <LogoAppFirmNr>46</LogoAppFirmNr>
+  </LogoConn>
+</Netline>
+

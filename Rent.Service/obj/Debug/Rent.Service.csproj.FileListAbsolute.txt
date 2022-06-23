@@ -1,0 +1,173 @@
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Rent.Service.exe.config
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Rent.Service.exe
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Rent.Service.pdb
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Topshelf.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Topshelf.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\obj\Debug\Rent.Service.csproj.CoreCompileInputs.cache
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\obj\Debug\Rent.Service.csproj.CopyComplete
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\obj\Debug\Rent.Service.exe
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\obj\Debug\Rent.Service.pdb
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Rent.Domain.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Dapper.Contrib.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Dapper.dll
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Rent.Domain.pdb
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Dapper.Contrib.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\bin\Debug\Dapper.xml
+C:\Netline\Projects\Git\Toya Kira Yönetimi\Rent.Service\obj\Debug\Rent.Service.csprojAssemblyReference.cache
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Service.exe.config
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Service.exe
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Service.pdb
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Domain.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Topshelf.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.Contrib.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.dll
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Domain.pdb
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Topshelf.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.Contrib.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.xml
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.CoreCompileInputs.cache
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.CopyComplete
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.exe
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.pdb
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.AssemblyReference.cache
+C:\Netline\Projects\Git\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DbFiles\config.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Service.exe.config
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Service.exe
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Service.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Business.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Core.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Domain.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Topshelf.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.Contrib.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Ninject.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Shared.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Data.v16.2.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Core.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Core.dll.config
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Domain.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Business.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Business.dll.config
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Topshelf.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.Contrib.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Ninject.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.DataAccess.dll.config
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Rent.Shared.pdb
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\Dapper.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Utils.v16.2.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Data.v16.2.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.AssemblyReference.cache
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.CoreCompileInputs.cache
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.csproj.CopyComplete
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.exe
+C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Service\obj\Debug\Rent.Service.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DbFiles\config.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Service.exe.config
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Service.exe
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Service.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Business.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Core.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Domain.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Topshelf.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Dapper.Contrib.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Ninject.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\AutoMapper.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.DataAccess.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Shared.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Dapper.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Data.v16.2.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Core.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Core.dll.config
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Domain.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Business.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Business.dll.config
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Topshelf.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Dapper.Contrib.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Ninject.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\AutoMapper.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.DataAccess.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.DataAccess.dll.config
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Rent.Shared.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\Dapper.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Utils.v16.2.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Data.v16.2.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\obj\Debug\Rent.Service.csproj.AssemblyReference.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\obj\Debug\Rent.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\obj\Debug\Rent.Service.csproj.CoreCompileInputs.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\obj\Debug\Rent.Service.csproj.CopyComplete
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\obj\Debug\Rent.Service.exe
+C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Rent.Service\obj\Debug\Rent.Service.pdb
