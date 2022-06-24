@@ -52,3 +52,14 @@ C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.Domain\obj\Debug\Re
 C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.csproj.CopyComplete
 C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.dll
 C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\bin\Debug\Rent.Domain.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\bin\Debug\Rent.Domain.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\bin\Debug\Dapper.Contrib.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\bin\Debug\Dapper.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\bin\Debug\Dapper.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\bin\Debug\Dapper.Contrib.xml
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.csproj.AssemblyReference.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.csproj.CoreCompileInputs.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.csproj.CopyComplete
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Core\Rent.Domain\obj\Debug\Rent.Domain.pdb

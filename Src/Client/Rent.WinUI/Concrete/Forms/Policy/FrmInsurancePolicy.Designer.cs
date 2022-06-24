@@ -29,19 +29,29 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement1 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
             DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement2 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
             DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement3 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
             DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement4 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement5 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement6 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement7 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement8 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
+            this.columnPaymentEndDate = new DevExpress.XtraGrid.Columns.TileViewColumn();
+            this.columnPaidDate = new DevExpress.XtraGrid.Columns.TileViewColumn();
+            this.columnAmount = new DevExpress.XtraGrid.Columns.TileViewColumn();
+            this.columnStatu = new DevExpress.XtraGrid.Columns.TileViewColumn();
             this.colCreatedDate = new DevExpress.XtraGrid.Columns.GridColumn();
             this.layoutView2 = new DevExpress.XtraGrid.Views.Layout.LayoutView();
             this.GcInsurancePolicy = new Rent.WinUI.Concrete.NetlineControls.GcList();
             this.BsStatu = new System.Windows.Forms.BindingSource(this.components);
+            this.tileView1 = new DevExpress.XtraGrid.Views.Tile.TileView();
+            this.columnPaid = new DevExpress.XtraGrid.Columns.TileViewColumn();
+            this.colPaid = new DevExpress.XtraGrid.Columns.GridColumn();
             this.GvInsurancePolicy = new DevExpress.XtraGrid.Views.Card.CardView();
             this.colPaymentEndDate = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colPaymentDate = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colPaid = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAmount = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colStatu = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colLOGICALREF = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -54,11 +64,6 @@
             this.colDeletedBy = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colIsDeleted = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colIsEdit = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.tileView1 = new DevExpress.XtraGrid.Views.Tile.TileView();
-            this.Tarih = new DevExpress.XtraGrid.Columns.TileViewColumn();
-            this.Datee = new DevExpress.XtraGrid.Columns.TileViewColumn();
-            this.Durum = new DevExpress.XtraGrid.Columns.TileViewColumn();
-            this.Durumm = new DevExpress.XtraGrid.Columns.TileViewColumn();
             this.cardView1 = new DevExpress.XtraGrid.Views.Card.CardView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -79,8 +84,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GcInsurancePolicy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BsStatu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GvInsurancePolicy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GvInsurancePolicy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GcRentContract)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GvRentContract)).BeginInit();
@@ -96,21 +101,56 @@
             // 
             this.LcMain.Controls.Add(this.GcInsurancePolicy);
             this.LcMain.Controls.Add(this.GcRentContract);
-            this.LcMain.Size = new System.Drawing.Size(1435, 765);
+            this.LcMain.Margin = new System.Windows.Forms.Padding(4);
+            this.LcMain.Size = new System.Drawing.Size(1435, 698);
             // 
             // LcgMain
             // 
             this.LcgMain.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem1,
             this.layoutControlItem3});
-            this.LcgMain.Size = new System.Drawing.Size(1435, 765);
+            this.LcgMain.OptionsItemText.TextToControlDistance = 5;
+            this.LcgMain.Size = new System.Drawing.Size(1435, 698);
             // 
             // RcMain
             // 
             this.RcMain.ExpandCollapseItem.Id = 0;
-            this.RcMain.Location = new System.Drawing.Point(0, 765);
+            this.RcMain.Location = new System.Drawing.Point(0, 698);
+            this.RcMain.Margin = new System.Windows.Forms.Padding(4);
             this.RcMain.Size = new System.Drawing.Size(1435, 31);
             this.RcMain.Toolbar.ShowCustomizeItem = false;
+            // 
+            // columnPaymentEndDate
+            // 
+            this.columnPaymentEndDate.Caption = "Son Ödeme Tarihi";
+            this.columnPaymentEndDate.FieldName = "PaymentEndDate";
+            this.columnPaymentEndDate.Name = "columnPaymentEndDate";
+            this.columnPaymentEndDate.Visible = true;
+            this.columnPaymentEndDate.VisibleIndex = 0;
+            // 
+            // columnPaidDate
+            // 
+            this.columnPaidDate.Caption = "Ödeme Tarihi";
+            this.columnPaidDate.FieldName = "PaidDate";
+            this.columnPaidDate.Name = "columnPaidDate";
+            this.columnPaidDate.Visible = true;
+            this.columnPaidDate.VisibleIndex = 1;
+            // 
+            // columnAmount
+            // 
+            this.columnAmount.Caption = "Ödenen Miktar";
+            this.columnAmount.FieldName = "Amount";
+            this.columnAmount.Name = "columnAmount";
+            this.columnAmount.Visible = true;
+            this.columnAmount.VisibleIndex = 2;
+            // 
+            // columnStatu
+            // 
+            this.columnStatu.Caption = "Ödeme Durumu";
+            this.columnStatu.FieldName = "Statu";
+            this.columnStatu.Name = "columnStatu";
+            this.columnStatu.Visible = true;
+            this.columnStatu.VisibleIndex = 3;
             // 
             // colCreatedDate
             // 
@@ -128,21 +168,98 @@
             // GcInsurancePolicy
             // 
             this.GcInsurancePolicy.DataSource = this.BsStatu;
+            this.GcInsurancePolicy.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.GcInsurancePolicy.EmbeddedNavigator.ShowToolTips = false;
             this.GcInsurancePolicy.Location = new System.Drawing.Point(12, 12);
-            this.GcInsurancePolicy.MainView = this.GvInsurancePolicy;
+            this.GcInsurancePolicy.MainView = this.tileView1;
+            this.GcInsurancePolicy.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.GcInsurancePolicy.MenuManager = this.RcMain;
             this.GcInsurancePolicy.Name = "GcInsurancePolicy";
-            this.GcInsurancePolicy.Size = new System.Drawing.Size(1411, 188);
+            this.GcInsurancePolicy.Size = new System.Drawing.Size(1411, 294);
             this.GcInsurancePolicy.TabIndex = 6;
             this.GcInsurancePolicy.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.GvInsurancePolicy,
             this.tileView1,
+            this.GvInsurancePolicy,
             this.cardView1,
             this.layoutView2});
             // 
             // BsStatu
             // 
             this.BsStatu.DataSource = typeof(Rent.Domain.Concrete.Models.Rent.InsurancePolicy);
+            // 
+            // tileView1
+            // 
+            this.tileView1.AppearancePrint.Item.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tileView1.AppearancePrint.Item.Options.UseFont = true;
+            this.tileView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.columnPaymentEndDate,
+            this.columnPaidDate,
+            this.columnAmount,
+            this.columnStatu,
+            this.columnPaid});
+            this.tileView1.ColumnSet.CheckedColumn = this.colPaid;
+            this.tileView1.GridControl = this.GcInsurancePolicy;
+            this.tileView1.Name = "tileView1";
+            this.tileView1.OptionsTiles.ItemSize = new System.Drawing.Size(240, 240);
+            tileViewItemElement1.Text = "Son Ödeme Tarihi : ";
+            tileViewItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement1.TextLocation = new System.Drawing.Point(10, 20);
+            tileViewItemElement2.Text = "Ödeme Tarihi : ";
+            tileViewItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement2.TextLocation = new System.Drawing.Point(10, 80);
+            tileViewItemElement3.Text = "Ödenen Miktar : ";
+            tileViewItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement3.TextLocation = new System.Drawing.Point(10, 140);
+            tileViewItemElement4.Text = "Durum : ";
+            tileViewItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement4.TextLocation = new System.Drawing.Point(10, 200);
+            tileViewItemElement5.Column = this.columnPaymentEndDate;
+            tileViewItemElement5.Text = "columnPaymentEndDate";
+            tileViewItemElement5.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement5.TextLocation = new System.Drawing.Point(120, 20);
+            tileViewItemElement6.Column = this.columnPaidDate;
+            tileViewItemElement6.Text = "columnPaidDate";
+            tileViewItemElement6.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement6.TextLocation = new System.Drawing.Point(120, 80);
+            tileViewItemElement7.Column = this.columnAmount;
+            tileViewItemElement7.Text = "columnAmount";
+            tileViewItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement7.TextLocation = new System.Drawing.Point(120, 140);
+            tileViewItemElement8.Column = this.columnStatu;
+            tileViewItemElement8.Text = "columnStatu";
+            tileViewItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileViewItemElement8.TextLocation = new System.Drawing.Point(120, 200);
+            this.tileView1.TileTemplate.Add(tileViewItemElement1);
+            this.tileView1.TileTemplate.Add(tileViewItemElement2);
+            this.tileView1.TileTemplate.Add(tileViewItemElement3);
+            this.tileView1.TileTemplate.Add(tileViewItemElement4);
+            this.tileView1.TileTemplate.Add(tileViewItemElement5);
+            this.tileView1.TileTemplate.Add(tileViewItemElement6);
+            this.tileView1.TileTemplate.Add(tileViewItemElement7);
+            this.tileView1.TileTemplate.Add(tileViewItemElement8);
+            this.tileView1.ItemCustomize += new DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventHandler(this.tileView1_ItemCustomize);
+            // 
+            // columnPaid
+            // 
+            this.columnPaid.Caption = "Ödendi";
+            this.columnPaid.FieldName = "Paid";
+            this.columnPaid.Name = "columnPaid";
+            this.columnPaid.Visible = true;
+            this.columnPaid.VisibleIndex = 4;
+            // 
+            // colPaid
+            // 
+            this.colPaid.AppearanceCell.Options.UseTextOptions = true;
+            this.colPaid.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colPaid.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.colPaid.AppearanceHeader.Options.UseTextOptions = true;
+            this.colPaid.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colPaid.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.colPaid.Caption = "Ödenecek Tutar";
+            this.colPaid.FieldName = "Paid";
+            this.colPaid.Name = "colPaid";
+            this.colPaid.Visible = true;
+            this.colPaid.VisibleIndex = 4;
             // 
             // GvInsurancePolicy
             // 
@@ -153,8 +270,6 @@
             this.GvInsurancePolicy.Appearance.Card.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.GvInsurancePolicy.Appearance.CardCaption.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
             this.GvInsurancePolicy.Appearance.CardCaption.Options.UseFont = true;
-            this.GvInsurancePolicy.Appearance.FieldValue.BackColor = System.Drawing.Color.OldLace;
-            this.GvInsurancePolicy.Appearance.FieldValue.Options.UseBackColor = true;
             this.GvInsurancePolicy.Appearance.SeparatorLine.Options.UseTextOptions = true;
             this.GvInsurancePolicy.Appearance.SeparatorLine.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.GvInsurancePolicy.Appearance.SeparatorLine.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
@@ -191,8 +306,7 @@
             gridFormatRule1.Rule = null;
             this.GvInsurancePolicy.FormatRules.Add(gridFormatRule1);
             this.GvInsurancePolicy.GridControl = this.GcInsurancePolicy;
-            this.GvInsurancePolicy.MaximumCardColumns = 6;
-            this.GvInsurancePolicy.MaximumCardRows = 1;
+            this.GvInsurancePolicy.MaximumCardColumns = 2;
             this.GvInsurancePolicy.Name = "GvInsurancePolicy";
             this.GvInsurancePolicy.OptionsBehavior.AutoHorzWidth = true;
             this.GvInsurancePolicy.OptionsBehavior.Editable = false;
@@ -200,8 +314,8 @@
             this.GvInsurancePolicy.OptionsBehavior.ReadOnly = true;
             this.GvInsurancePolicy.OptionsFind.AlwaysVisible = true;
             this.GvInsurancePolicy.OptionsSelection.MultiSelect = true;
-            this.GvInsurancePolicy.OptionsView.ShowCardCaption = false;
             this.GvInsurancePolicy.OptionsView.ShowCardExpandButton = false;
+            this.GvInsurancePolicy.OptionsView.ShowQuickCustomizeButton = false;
             this.GvInsurancePolicy.VertScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Auto;
             // 
             // colPaymentEndDate
@@ -228,20 +342,6 @@
             this.colPaymentDate.OptionsColumn.ReadOnly = true;
             this.colPaymentDate.Visible = true;
             this.colPaymentDate.VisibleIndex = 1;
-            // 
-            // colPaid
-            // 
-            this.colPaid.AppearanceCell.Options.UseTextOptions = true;
-            this.colPaid.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.colPaid.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.colPaid.AppearanceHeader.Options.UseTextOptions = true;
-            this.colPaid.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.colPaid.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.colPaid.Caption = "Ödenecek Tutar";
-            this.colPaid.FieldName = "Paid";
-            this.colPaid.Name = "colPaid";
-            this.colPaid.Visible = true;
-            this.colPaid.VisibleIndex = 4;
             // 
             // colAmount
             // 
@@ -323,61 +423,6 @@
             this.colIsEdit.FieldName = "IsEdit";
             this.colIsEdit.Name = "colIsEdit";
             // 
-            // tileView1
-            // 
-            this.tileView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.Tarih,
-            this.Datee,
-            this.Durum,
-            this.Durumm});
-            this.tileView1.GridControl = this.GcInsurancePolicy;
-            this.tileView1.Name = "tileView1";
-            tileViewItemElement1.Text = "Tarih : ";
-            tileViewItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileViewItemElement1.TextLocation = new System.Drawing.Point(-60, -20);
-            tileViewItemElement2.Text = "Datee";
-            tileViewItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileViewItemElement2.TextLocation = new System.Drawing.Point(40, -20);
-            tileViewItemElement3.Text = "Durum : ";
-            tileViewItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileViewItemElement3.TextLocation = new System.Drawing.Point(-60, 20);
-            tileViewItemElement4.Text = "Ödendi ";
-            tileViewItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileViewItemElement4.TextLocation = new System.Drawing.Point(40, 20);
-            this.tileView1.TileTemplate.Add(tileViewItemElement1);
-            this.tileView1.TileTemplate.Add(tileViewItemElement2);
-            this.tileView1.TileTemplate.Add(tileViewItemElement3);
-            this.tileView1.TileTemplate.Add(tileViewItemElement4);
-            // 
-            // Tarih
-            // 
-            this.Tarih.Caption = "tvTarih";
-            this.Tarih.Name = "Tarih";
-            this.Tarih.Visible = true;
-            this.Tarih.VisibleIndex = 0;
-            // 
-            // Datee
-            // 
-            this.Datee.Caption = "tvDatee";
-            this.Datee.Name = "Datee";
-            this.Datee.Visible = true;
-            this.Datee.VisibleIndex = 1;
-            // 
-            // Durum
-            // 
-            this.Durum.Caption = "Durum";
-            this.Durum.Name = "Durum";
-            this.Durum.Visible = true;
-            this.Durum.VisibleIndex = 2;
-            // 
-            // Durumm
-            // 
-            this.Durumm.Caption = "tvDurumm";
-            this.Durumm.Name = "Durumm";
-            this.Durumm.OptionsColumn.ShowCaption = true;
-            this.Durumm.Visible = true;
-            this.Durumm.VisibleIndex = 3;
-            // 
             // cardView1
             // 
             this.cardView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
@@ -419,11 +464,13 @@
             // 
             // GcRentContract
             // 
-            this.GcRentContract.Location = new System.Drawing.Point(12, 204);
+            this.GcRentContract.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.GcRentContract.Location = new System.Drawing.Point(12, 310);
             this.GcRentContract.MainView = this.GvRentContract;
+            this.GcRentContract.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.GcRentContract.MenuManager = this.RcMain;
             this.GcRentContract.Name = "GcRentContract";
-            this.GcRentContract.Size = new System.Drawing.Size(1411, 549);
+            this.GcRentContract.Size = new System.Drawing.Size(1411, 376);
             this.GcRentContract.TabIndex = 4;
             this.GcRentContract.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.GvRentContract,
@@ -474,9 +521,9 @@
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.GcRentContract;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 192);
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 298);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1415, 553);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1415, 380);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -485,7 +532,7 @@
             this.layoutControlItem3.Control = this.GcInsurancePolicy;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(1415, 192);
+            this.layoutControlItem3.Size = new System.Drawing.Size(1415, 298);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
@@ -505,7 +552,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1435, 796);
+            this.ClientSize = new System.Drawing.Size(1435, 729);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmInsurancePolicy";
             this.Text = "Sigorta Poliçeleri";
             ((System.ComponentModel.ISupportInitialize)(this.LcMain)).EndInit();
@@ -515,8 +563,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GcInsurancePolicy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BsStatu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GvInsurancePolicy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GvInsurancePolicy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GcRentContract)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GvRentContract)).EndInit();
@@ -547,10 +595,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.TileViewColumn Tarih;
-        private DevExpress.XtraGrid.Columns.TileViewColumn Datee;
-        private DevExpress.XtraGrid.Columns.TileViewColumn Durum;
-        private DevExpress.XtraGrid.Columns.TileViewColumn Durumm;
         private DevExpress.XtraGrid.Views.Layout.LayoutViewCard layoutViewCard1;
         private System.Windows.Forms.BindingSource BsStatu;
         private DevExpress.XtraGrid.Views.Layout.LayoutView layoutView2;
@@ -571,5 +615,10 @@
         private DevExpress.XtraGrid.Columns.GridColumn colPaymentEndDate;
         private DevExpress.XtraGrid.Columns.GridColumn colStatu;
         private DevExpress.XtraGrid.Columns.GridColumn colPaid;
+        private DevExpress.XtraGrid.Columns.TileViewColumn columnPaymentEndDate;
+        private DevExpress.XtraGrid.Columns.TileViewColumn columnPaidDate;
+        private DevExpress.XtraGrid.Columns.TileViewColumn columnAmount;
+        private DevExpress.XtraGrid.Columns.TileViewColumn columnStatu;
+        private DevExpress.XtraGrid.Columns.TileViewColumn columnPaid;
     }
 }

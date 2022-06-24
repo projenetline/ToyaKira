@@ -19,7 +19,6 @@ namespace Rent.Business.Concrete
         private readonly IRentContractDal _rentContractDal;
         private readonly ITenantDal _tenantDal;
         private readonly ILogDal _logDal;
-
         private readonly Timer _timer;
         public PaymentManager(IPaymentDal paymentDal, ILogDal logDal, IInsurancePolicyDal insurancePolicyDal, IRentContractDal rentContractDal, ITenantDal tenantDal)
         {
@@ -31,7 +30,6 @@ namespace Rent.Business.Concrete
             _timer = new Timer { Interval = 1000 * 60 * 1 };
             _timer.Elapsed += _timer_Elapsed;
         }
-
         private void _timer_Elapsed(object sender, ElapsedEventArgs e)
         {
             Start();
@@ -42,8 +40,35 @@ namespace Rent.Business.Concrete
             _timer.Stop();
             InsurancePolicyControl();
             PaymentControl();
+           // ContractControl();
             _timer.Start();
             return true;
+        }
+        public void ContractControl()
+        {
+            IList<RentContract> contracts = _rentContractDal.GetAll();
+            foreach (RentContract item in contracts)
+            {
+               IList<InsurancePolicy> policyList = _insurancePolicyDal.GetContractId(item.Id);
+                if (policyList.Where(s => s.IsPaid == false).FirstOrDefault() == null)
+                {
+                    if(!item.IsPaid)
+                    {
+                        item.IsPaid = true;
+                        item.IsEdit = true;
+                        _rentContractDal.Save(item);
+                    }
+                }
+                else
+                {
+                    if (item.IsPaid)
+                    {
+                        item.IsPaid = false;
+                        item.IsEdit = false;
+                        _rentContractDal.Save(item);
+                    }
+                }
+            }
         }
         public void InsurancePolicyControl()
         {
@@ -73,7 +98,6 @@ namespace Rent.Business.Concrete
                                     {
                                         policy = new InsurancePolicy
                                         {
-                                            PaymentDate = contract.ContractStartDate.Date,
                                             PaymentEndDate = contract.ContractStartDate.AddDays(diffDat),
                                             CreatedDate = DateTime.Now,
                                             Paid = contract.TotalAmount,
@@ -114,7 +138,6 @@ namespace Rent.Business.Concrete
                                     {
                                         policy = new InsurancePolicy
                                         {
-                                            PaymentDate = contract.ContractStartDate.Date,
                                             PaymentEndDate = contract.ContractStartDate.AddMonths(diffDatt),
                                             CreatedDate = DateTime.Now,
                                             Paid = contract.TotalAmount,
@@ -155,7 +178,6 @@ namespace Rent.Business.Concrete
                                     {
                                         policy = new InsurancePolicy
                                         {
-                                            PaymentDate=contract.ContractStartDate.Date,
                                             PaymentEndDate = contract.ContractStartDate.AddYears(diffDattt),
                                             CreatedDate = DateTime.Now,
                                             Paid = contract.TotalAmount,
@@ -200,19 +222,40 @@ namespace Rent.Business.Concrete
                 if (tenant != null)
                 {
                     policyList = _insurancePolicyDal.GetContractId(contract.Id);
-                    IList<LogoBNFLINE> bnfList = _paymentDal.Get_BNF(46, 1, tenant.LogoLogicalRef).OrderByDescending(x =>x.DATE_).ToList();
-                    if (bnfList.Count > policyList.Where(s => s.IsPaid == true).ToList().Count)
+                    IList<LogoBNFLINE> bnfList = _paymentDal.Get_BNF(46, 1, tenant.LogoLogicalRef).OrderBy(x =>x.DATE_).ToList();
+                    int totalPaidPolicy = policyList.Where(s => s.IsPaid == true).ToList().Count;
+                    if (bnfList.Count > totalPaidPolicy)
                     {
-                        policy = policyList.Where(x => x.IsPaid == false).OrderBy(x => x.CreatedDate).FirstOrDefault();
-                        if (policy != null)
+                        for (int i = totalPaidPolicy; i < bnfList.Count; i++)
                         {
-                            bnfList.
-                            policyList[policyList.IndexOf(policy)].IsPaid = true;
-                            policy.IsPaid = true;
-                            policy.PaidDate = bnfList[1].DATE_;
-                            policy.Amount = bnfList[1].AMOUNT;
-                            policy.IsEdit = true;
-                            _insurancePolicyDal.Save(policy);
+                            policy = policyList.Where(x => x.IsPaid == false).OrderBy(x => x.CreatedDate).FirstOrDefault();
+                            if (policy != null)
+                            {
+                                policy.IsPaid = true;
+                                policy.PaidDate = bnfList[i].DATE_;
+                                policy.Amount = bnfList[i].AMOUNT;
+                                policy.IsEdit = true;
+                                _insurancePolicyDal.Save(policy);
+                                policyList[policyList.IndexOf(policy)].IsPaid = true;
+                            }
+                        }
+                    }
+                    if (policyList.Where(s => s.IsPaid == false).FirstOrDefault() == null)
+                    {
+                        if (!contract.IsPaid)
+                        {
+                            contract.IsPaid = true;
+                            contract.IsEdit = true;
+                            _rentContractDal.Save(contract);
+                        }
+                    }
+                    else
+                    {
+                        if (contract.IsPaid)
+                        {
+                            contract.IsPaid = false;
+                            contract.IsEdit = false;
+                            _rentContractDal.Save(contract);
                         }
                     }
                 }
@@ -230,22 +273,18 @@ namespace Rent.Business.Concrete
             _paymentDal.LogService("-", StatuServiceType.ServiceContinue.GetHashCode());
             return true;
         }
-
         public void AfterStarting()
         {
             _paymentDal.LogService("Servis başlıyor.", StatuServiceType.ServiceStart.GetHashCode());
         }
-
         public void AfterStoping()
         {
             _paymentDal.LogService("Servis durduruluyor.", StatuServiceType.ServiceStop.GetHashCode());
         }
-
         public void BeforeStarting()
         {
             _paymentDal.LogService("Servis başlatıldı.", StatuServiceType.ServiceStart.GetHashCode());
         }
-
         public void BeforeStopping()
         {
             _paymentDal.LogService("Servis durduruldu.", StatuServiceType.ServiceStop.GetHashCode());
@@ -254,7 +293,6 @@ namespace Rent.Business.Concrete
         {
             _paymentDal.LogService("Durdu!", StatuServiceType.ServiceStop.GetHashCode());
         }
-
         public void Shutdown()
         {
             _paymentDal.LogService("Servis hata!", StatuServiceType.Error.GetHashCode());

@@ -35,8 +35,7 @@ namespace Rent.WinUI.Concrete.Forms.Contract
             bool rfinish = false;
             foreach (RentContract contract in contractList)
             {
-                IList<InsurancePolicy> policy = _insurancePolicyService.GetContractId(contract.Id).Where(s => s.CreatedDate != null || s.IsPaid == false).OrderByDescending(s => s.Id).ToList();
-
+                IList<InsurancePolicy> policy = _insurancePolicyService.GetContractId(contract.Id).Where(s => s.IsPaid == false).OrderByDescending(s => s.Id).ToList();
                 if (refinish && rfinish)
                     return;
                 if (policy != null)
@@ -45,7 +44,7 @@ namespace Rent.WinUI.Concrete.Forms.Contract
                     {
                         if (!refinish)
                         {
-                            if (policy.Where(s => (s.PaymentDate.Date - s.CreatedDate.Value).TotalDays > 0 && (s.PaymentDate.Date - s.CreatedDate.Value).TotalDays < 15).FirstOrDefault() != null)
+                            if (policy.Where(s => (s.PaidDate.Date - s.CreatedDate.Value).TotalDays > 0 && (s.PaidDate.Date - s.CreatedDate.Value).TotalDays < 15).FirstOrDefault() != null)
                             {
                                 XtraMessageBox.Show("Ödeme tarihi yaklaşan poliçeler var");
                                 refinish = true;
@@ -53,7 +52,7 @@ namespace Rent.WinUI.Concrete.Forms.Contract
                         }
                         if (!rfinish)
                         {
-                            if (policy.Where(s => s.IsPaid == false && (s.PaymentDate.Date - s.CreatedDate.Value).TotalDays < 0).FirstOrDefault() != null)
+                            if (policy.Where(s => s.IsPaid == false && (s.PaidDate.Date - s.CreatedDate.Value).TotalDays < 0).FirstOrDefault() != null)
                             {
                                 XtraMessageBox.Show("Ödeme tarihi geçen poliçeler var");
                                 rfinish = true;

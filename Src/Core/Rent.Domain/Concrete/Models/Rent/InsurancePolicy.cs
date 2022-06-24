@@ -12,7 +12,6 @@ namespace Rent.Domain.Concrete.Models.Rent
         public  int LOGICALREF { get; set; }
         public int RentContractId { get; set; }
         public DateTime PaidDate { get; set; }
-        public DateTime PaymentDate { get; set; }
         public DateTime PaymentEndDate { get; set; }
         public double Amount { get; set; }
         public bool IsActive { get; set; }
@@ -27,7 +26,7 @@ namespace Rent.Domain.Concrete.Models.Rent
             get
             {
                 if (IsPaid)
-                    return $"{PaymentDate.ToShortDateString()} tarihin de ödendi";
+                    return $"{PaidDate.ToShortDateString()} tarihin de ödendi";
                 if ((PaymentEndDate - DateTime.Now.Date).TotalDays < 15 && (PaymentEndDate - DateTime.Now.Date).TotalDays > 0)
                     return $"Ödeme Tarihine { (PaymentEndDate - DateTime.Now.Date).TotalDays} gün kaldı";
                 if(PaymentEndDate > DateTime.Now.Date)

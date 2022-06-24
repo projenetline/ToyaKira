@@ -24,6 +24,7 @@ namespace Rent.WinUI.Concrete.Forms
         IRentContractExpenseService _rentContractExpenseService;
         IInsurancePolicyService _insurancePolicyService;
         ITenantService _tenantService;
+        private RentContract contract => _rentContractService.GetById(CurrentObjectId);
         public FrmInsurancePolicy(IRentContractExpenseService rentContractExpenseService, IInsurancePolicyService insurancePolicyService, IRentContractService rentContractService, ITenantService tennantService)
         {
             _rentContractExpenseService = rentContractExpenseService;
@@ -45,72 +46,81 @@ namespace Rent.WinUI.Concrete.Forms
         private void IniInsurancePolicy()
         {
             RentContract contract = _rentContractService.GetById(CurrentObjectId);
-            Tenant tenant= _tenantService.GetById(contract.TenantId);
-            int totalChart = 0;
-            switch (contract.RentAdditionPeriod)//Yenileme
+            if (contract != null)
             {
-                case 0://Haftalık
-                    totalChart = 1;
-                    break;
-                case 1:
-                    totalChart = 1;
-                    break;
-                case 2://Aylık
-                    if (contract.RentPeriod == 0)
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 4 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    else if (contract.RentPeriod == 1)
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 4 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    else if (contract.RentPeriod == 2)
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 1 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    else
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 1 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    break;
-                case 3://Yıllık
-                    if (contract.RentPeriod == 0)
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 52 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    else if (contract.RentPeriod == 1)
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 52 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    else if (contract.RentPeriod == 2)
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 12 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    else
-                        totalChart = (int)Math.Ceiling(decimal.Parse((1 * 1 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
-                    break;
+                BsStatu.DataSource = _insurancePolicyService.GetContractId(contract.Id);
+                GcInsurancePolicy.DataSource = BsStatu;
             }
-            IList<InsurancePolicy> policyList = _insurancePolicyService.GetContractId(contract.Id);
-            if (policyList.Count < totalChart)
-            {
-                DateTime dat;
-                if (policyList.Count > 0)
-                    dat = policyList[0].PaymentEndDate;
-                else
-                    if (contract.RentPeriod == 1)
-                        dat = contract.ContractStartDate.AddDays(contract.RentPeriodNr*7);
-                    else if(contract.RentPeriod == 2)
-                        dat = contract.ContractStartDate.AddMonths(contract.RentPeriodNr);
-                    else
-                        dat = contract.ContractStartDate.AddYears(contract.RentPeriodNr);
-                for (int i = policyList.Count; i < totalChart; i++)
-                {
-                    policyList.Add(new InsurancePolicy
-                    {
-                        Id = i,
-                        Amount = 0,
-                        CreatedDate = dat,
-                        PaymentEndDate=dat,
-                        LOGICALREF = tenant.LogoLogicalRef,
-                        IsPaid = false,
-                        Paid = contract.RentAdditionAmount,
-                    });
-                    if (contract.RentPeriod == 1)
-                        dat = dat.AddDays(contract.RentPeriodNr * 7);
-                    else if (contract.RentPeriod == 2)
-                        dat = dat.AddMonths(contract.RentPeriodNr);
-                    else
-                        dat = dat.AddYears(contract.RentPeriodNr);
-                }
-            }
-            BsStatu.DataSource = policyList;
-            GcInsurancePolicy.DataSource = BsStatu;
+
+            #region Old Code
+            //Tenant tenant= _tenantService.GetById(contract.TenantId);
+            //int totalChart = 0;
+            //switch (contract.RentAdditionPeriod)//Yenileme
+            //{
+            //    case 0://Haftalık
+            //        totalChart = 1;
+            //        break;
+            //    case 1:
+            //        totalChart = 1;
+            //        break;
+            //    case 2://Aylık
+            //        if (contract.RentPeriod == 0)
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 4 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        else if (contract.RentPeriod == 1)
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 4 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        else if (contract.RentPeriod == 2)
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 1 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        else
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 1 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        break;
+            //    case 3://Yıllık
+            //        if (contract.RentPeriod == 0)
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 52 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        else if (contract.RentPeriod == 1)
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 52 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        else if (contract.RentPeriod == 2)
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 12 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        else
+            //            totalChart = (int)Math.Ceiling(decimal.Parse((1 * 1 * contract.RentAdditionPeriodNr / contract.RentPeriodNr).ToString()));
+            //        break;
+            //}
+            //IList<InsurancePolicy> policyList = _insurancePolicyService.GetContractId(contract.Id);
+            //if (policyList.Count < totalChart)
+            //{
+            //    DateTime dat;
+            //    if (policyList.Count > 0)
+            //        dat = policyList[0].PaymentEndDate;
+            //    else
+            //        if (contract.RentPeriod == 1)
+            //            dat = contract.ContractStartDate.AddDays(contract.RentPeriodNr*7);
+            //        else if(contract.RentPeriod == 2)
+            //            dat = contract.ContractStartDate.AddMonths(contract.RentPeriodNr);
+            //        else
+            //            dat = contract.ContractStartDate.AddYears(contract.RentPeriodNr);
+            //    for (int i = policyList.Count; i < totalChart; i++)
+            //    {
+            //        policyList.Add(new InsurancePolicy
+            //        {
+            //            Id = i,
+            //            Amount = 0,
+            //            CreatedDate = dat,
+            //            PaymentEndDate=dat,
+            //            LOGICALREF = tenant.LogoLogicalRef,
+            //            IsPaid = false,
+            //            Paid = contract.RentAdditionAmount,
+            //        });
+            //        if (contract.RentPeriod == 1)
+            //            dat = dat.AddDays(contract.RentPeriodNr * 7);
+            //        else if (contract.RentPeriod == 2)
+            //            dat = dat.AddMonths(contract.RentPeriodNr);
+            //        else
+            //            dat = dat.AddYears(contract.RentPeriodNr);
+            //    }
+            //}
+            //BsStatu.DataSource = policyList;
+            //GcInsurancePolicy.DataSource = BsStatu;
+            #endregion
+
         }
         protected override ColumnView MainView01 => GvRentContract;
         public override int CurrentObjectId => GvRentContract.GetFocusedRowCellValue("Id") != DBNull.Value
@@ -125,6 +135,26 @@ namespace Rent.WinUI.Concrete.Forms
         {
             if (CurrentObjectId != 0)
                 IniInsurancePolicy();
+        }
+
+        private void tileView1_ItemCustomize(object sender, DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventArgs e)
+        {
+             RentContract contract =  CurrentEditObject as RentContract;
+            if (tileView1.GetRowCellValue(e.RowHandle, columnPaid) == null)
+                return;
+            var fff = tileView1.GetRowCellValue(e.RowHandle, columnPaid).ToString();
+            if (tileView1.GetRowCellValue(e.RowHandle, columnPaid).ToString() == "true" )
+            {
+                object ad = e.Item.Elements;
+                e.Item.Elements[6].Appearance.Normal.ForeColor = Color.Green;
+            }
+            else
+            {
+                //e.Item.Elements[6].Appearance.Normal.BackColor = Color.Red;
+                //e.Item.Elements[6].Appearance.Normal.BackColor2 = Color.Red;
+                e.Item.Elements[6].Appearance.Normal.ForeColor = Color.Red;
+                //e.Item.Elements[6].Appearance.Normal.BorderColor = Color.Red;
+            }
         }
     }
 }
