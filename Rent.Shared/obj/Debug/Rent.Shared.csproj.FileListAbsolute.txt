@@ -4,3 +4,9 @@ C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Shared\obj\Debug\Re
 C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Shared\obj\Debug\Rent.Shared.csproj.CoreCompileInputs.cache
 C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Shared\obj\Debug\Rent.Shared.dll
 C:\Users\NETLINE YAZILIM\Desktop\Toya\Toya-Rent_Desktop\Rent.Shared\obj\Debug\Rent.Shared.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Rent.Shared\bin\Debug\Rent.Shared.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Rent.Shared\bin\Debug\Rent.Shared.pdb
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Rent.Shared\obj\Debug\Rent.Shared.csproj.AssemblyReference.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Rent.Shared\obj\Debug\Rent.Shared.csproj.CoreCompileInputs.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Rent.Shared\obj\Debug\Rent.Shared.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Rent.Shared\obj\Debug\Rent.Shared.pdb

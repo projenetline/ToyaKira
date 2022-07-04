@@ -69,7 +69,8 @@ namespace Rent.DataAccess.Concrete
         {
             string firmaNo = firmNo.ToString().PadLeft(3, '0');
             string donemm = donem.ToString().PadLeft(2, '0');
-            string query = $" SELECT LOGICALREF, CLIENTREF, DATE_, AMOUNT  FROM LG_{firmaNo}_{donemm}_BNFLINE ";
+            //string query = $" SELECT LOGICALREF, CLIENTREF, DATE_,LINEEXP, AMOUNT  FROM LG_026_{donemm}_BNFLINE ";
+            string query = $" SELECT LOGICALREF, CLIENTREF, DATE_,LINEEXP, AMOUNT  FROM LG_{firmaNo}_{donemm}_BNFLINE ";
             query += " where CLIENTREF=@CLIENTREF and TRCODE = 3";
             return  LogoDb.Query<LogoBNFLINE>(query, new { CLIENTREF = logicalRef}).ToList();
         }

@@ -203,8 +203,8 @@ namespace Rent.WinUI.Concrete.Forms.Contract
                                 }
                             }
                         }
-
                         _rentContractService.Save(RentContract);
+
                         if (_rentContractService.SuccsessOperation)
                         {
                             TxtId.Text = RentContract.Id.ToString();

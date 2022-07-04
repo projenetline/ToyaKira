@@ -36,11 +36,10 @@ namespace Rent.WinUI.Concrete.Forms
         }
         protected override void GetRecordList()
         {
-
             BsContract.DataSource = _rentContractService.GetNotPaid();
-            GcRentContract.DataSource = BsContract;
-            GvRentContract.ExpandAllGroups();
-            GvRentContract.BestFitColumns();
+            GcMain.DataSource = BsContract;
+            GvMain.ExpandAllGroups();
+            GvMain.BestFitColumns();
             base.GetRecordList();
         }
         private void IniInsurancePolicy()
@@ -51,7 +50,6 @@ namespace Rent.WinUI.Concrete.Forms
                 BsStatu.DataSource = _insurancePolicyService.GetContractId(contract.Id);
                 GcInsurancePolicy.DataSource = BsStatu;
             }
-
             #region Old Code
             //Tenant tenant= _tenantService.GetById(contract.TenantId);
             //int totalChart = 0;
@@ -120,23 +118,15 @@ namespace Rent.WinUI.Concrete.Forms
             //BsStatu.DataSource = policyList;
             //GcInsurancePolicy.DataSource = BsStatu;
             #endregion
-
         }
-        protected override ColumnView MainView01 => GvRentContract;
-        public override int CurrentObjectId => GvRentContract.GetFocusedRowCellValue("Id") != DBNull.Value
-            ? Convert.ToInt32(GvRentContract.GetFocusedRowCellValue("Id"))
+        protected override ColumnView MainView01 => GvMain;
+        public override int CurrentObjectId => GvMain.GetFocusedRowCellValue("Id") != DBNull.Value
+            ? Convert.ToInt32(GvMain.GetFocusedRowCellValue("Id"))
             : 0;
-        bool Locked => GvRentContract.GetFocusedRowCellValue("Lock") != DBNull.Value
-                       && Convert.ToBoolean(GvRentContract.GetFocusedRowCellValue("Lock"));
-        protected override BaseEntity CurrentEditObject => GvRentContract.GetRow(GvRentContract.FocusedRowHandle) as RentContract;
+        bool Locked => GvMain.GetFocusedRowCellValue("Lock") != DBNull.Value
+                       && Convert.ToBoolean(GvMain.GetFocusedRowCellValue("Lock"));
+        protected override BaseEntity CurrentEditObject => GvMain.GetRow(GvMain.FocusedRowHandle) as RentContract;
         protected override string DetailFormName => "FrmColorAdd";
-
-        private void GvRentContractExpense_FocusedRowChanged(object sender, FocusedRowChangedEventArgs e)
-        {
-            if (CurrentObjectId != 0)
-                IniInsurancePolicy();
-        }
-
         private void tileView1_ItemCustomize(object sender, DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventArgs e)
         {
              RentContract contract =  CurrentEditObject as RentContract;
@@ -155,6 +145,12 @@ namespace Rent.WinUI.Concrete.Forms
                 e.Item.Elements[6].Appearance.Normal.ForeColor = Color.Red;
                 //e.Item.Elements[6].Appearance.Normal.BorderColor = Color.Red;
             }
+        }
+
+        private void GvMain_FocusedRowChanged(object sender, FocusedRowChangedEventArgs e)
+        {
+            if (CurrentObjectId != 0)
+                IniInsurancePolicy();
         }
     }
 }

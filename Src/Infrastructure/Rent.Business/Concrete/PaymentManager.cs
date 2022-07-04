@@ -222,7 +222,7 @@ namespace Rent.Business.Concrete
                 if (tenant != null)
                 {
                     policyList = _insurancePolicyDal.GetContractId(contract.Id);
-                    IList<LogoBNFLINE> bnfList = _paymentDal.Get_BNF(46, 1, tenant.LogoLogicalRef).OrderBy(x =>x.DATE_).ToList();
+                    IList<LogoBNFLINE> bnfList = _paymentDal.Get_BNF(contract.FirmNo, 1, tenant.LogoLogicalRef).OrderBy(x =>x.DATE_).ToList();
                     int totalPaidPolicy = policyList.Where(s => s.IsPaid == true).ToList().Count;
                     if (bnfList.Count > totalPaidPolicy)
                     {

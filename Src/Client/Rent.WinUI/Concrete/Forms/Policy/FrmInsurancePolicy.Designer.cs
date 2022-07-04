@@ -69,14 +69,48 @@
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.GcRentContract = new Rent.WinUI.Concrete.NetlineControls.GcList();
-            this.GvRentContract = new Rent.WinUI.Concrete.NetlineControls.GvList();
-            this.layoutView1 = new DevExpress.XtraGrid.Views.Layout.LayoutView();
-            this.gvList1 = new Rent.WinUI.Concrete.NetlineControls.GvList();
-            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.BsContract = new System.Windows.Forms.BindingSource(this.components);
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutViewCard1 = new DevExpress.XtraGrid.Views.Layout.LayoutViewCard();
+            this.GcMain = new Rent.WinUI.Concrete.NetlineControls.GcList();
+            this.GvMain = new Rent.WinUI.Concrete.NetlineControls.GvList();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemsluTenant1 = new Rent.WinUI.RentControls.RepositoryItemsluTenant();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemdeDateEdit1 = new Rent.WinUI.RentControls.RepositoryItemdeDateEdit();
+            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemse15x21 = new Rent.WinUI.RentControls.RepositoryItemse15x2();
+            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemIcbCurrency1 = new Rent.WinUI.RentControls.RepositoryItemIcbCurrency();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemIcbPeriodType1 = new Rent.WinUI.RentControls.RepositoryItemIcbPeriodType();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn24 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn25 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn26 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn27 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colContractEndDate1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn33 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.LcMain)).BeginInit();
             this.LcMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LcgMain)).BeginInit();
@@ -87,28 +121,33 @@
             ((System.ComponentModel.ISupportInitialize)(this.tileView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GvInsurancePolicy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GcRentContract)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GvRentContract)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BsContract)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutViewCard1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GcMain)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GvMain)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemsluTenant1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemdeDateEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemdeDateEdit1.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemse15x21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemIcbCurrency1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemIcbPeriodType1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             this.SuspendLayout();
             // 
             // LcMain
             // 
+            this.LcMain.Controls.Add(this.GcMain);
             this.LcMain.Controls.Add(this.GcInsurancePolicy);
-            this.LcMain.Controls.Add(this.GcRentContract);
             this.LcMain.Margin = new System.Windows.Forms.Padding(4);
             this.LcMain.Size = new System.Drawing.Size(1435, 698);
             // 
             // LcgMain
             // 
             this.LcgMain.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem1,
-            this.layoutControlItem3});
+            this.layoutControlItem3,
+            this.layoutControlItem2});
             this.LcgMain.OptionsItemText.TextToControlDistance = 5;
             this.LcgMain.Size = new System.Drawing.Size(1435, 698);
             // 
@@ -175,7 +214,7 @@
             this.GcInsurancePolicy.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.GcInsurancePolicy.MenuManager = this.RcMain;
             this.GcInsurancePolicy.Name = "GcInsurancePolicy";
-            this.GcInsurancePolicy.Size = new System.Drawing.Size(1411, 294);
+            this.GcInsurancePolicy.Size = new System.Drawing.Size(1411, 290);
             this.GcInsurancePolicy.TabIndex = 6;
             this.GcInsurancePolicy.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tileView1,
@@ -462,83 +501,18 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
-            // GcRentContract
+            // BsContract
             // 
-            this.GcRentContract.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.GcRentContract.Location = new System.Drawing.Point(12, 310);
-            this.GcRentContract.MainView = this.GvRentContract;
-            this.GcRentContract.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.GcRentContract.MenuManager = this.RcMain;
-            this.GcRentContract.Name = "GcRentContract";
-            this.GcRentContract.Size = new System.Drawing.Size(1411, 376);
-            this.GcRentContract.TabIndex = 4;
-            this.GcRentContract.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.GvRentContract,
-            this.layoutView1,
-            this.gvList1});
-            // 
-            // GvRentContract
-            // 
-            this.GvRentContract.GridControl = this.GcRentContract;
-            this.GvRentContract.Name = "GvRentContract";
-            this.GvRentContract.OptionsBehavior.Editable = false;
-            this.GvRentContract.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.MouseDown;
-            this.GvRentContract.OptionsBehavior.ReadOnly = true;
-            this.GvRentContract.OptionsFind.AlwaysVisible = true;
-            this.GvRentContract.OptionsPrint.AutoWidth = false;
-            this.GvRentContract.OptionsSelection.MultiSelect = true;
-            this.GvRentContract.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect;
-            this.GvRentContract.OptionsView.ColumnAutoWidth = false;
-            this.GvRentContract.OptionsView.EnableAppearanceEvenRow = true;
-            this.GvRentContract.OptionsView.EnableAppearanceOddRow = true;
-            this.GvRentContract.OptionsView.ShowAutoFilterRow = true;
-            this.GvRentContract.OptionsView.ShowFooter = true;
-            this.GvRentContract.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.GvRentContractExpense_FocusedRowChanged);
-            // 
-            // layoutView1
-            // 
-            this.layoutView1.GridControl = this.GcRentContract;
-            this.layoutView1.Name = "layoutView1";
-            this.layoutView1.TemplateCard = null;
-            // 
-            // gvList1
-            // 
-            this.gvList1.GridControl = this.GcRentContract;
-            this.gvList1.Name = "gvList1";
-            this.gvList1.OptionsBehavior.Editable = false;
-            this.gvList1.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.MouseDown;
-            this.gvList1.OptionsBehavior.ReadOnly = true;
-            this.gvList1.OptionsFind.AlwaysVisible = true;
-            this.gvList1.OptionsPrint.AutoWidth = false;
-            this.gvList1.OptionsSelection.MultiSelect = true;
-            this.gvList1.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect;
-            this.gvList1.OptionsView.ColumnAutoWidth = false;
-            this.gvList1.OptionsView.EnableAppearanceEvenRow = true;
-            this.gvList1.OptionsView.EnableAppearanceOddRow = true;
-            this.gvList1.OptionsView.ShowAutoFilterRow = true;
-            this.gvList1.OptionsView.ShowFooter = true;
-            // 
-            // layoutControlItem1
-            // 
-            this.layoutControlItem1.Control = this.GcRentContract;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 298);
-            this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1415, 380);
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem1.TextVisible = false;
+            this.BsContract.DataSource = typeof(Rent.Domain.Concrete.Models.Rent.RentContract);
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.GcInsurancePolicy;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(1415, 298);
+            this.layoutControlItem3.Size = new System.Drawing.Size(1415, 294);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
-            // 
-            // BsContract
-            // 
-            this.BsContract.DataSource = typeof(Rent.Domain.Concrete.Models.Rent.RentContract);
             // 
             // layoutViewCard1
             // 
@@ -547,6 +521,375 @@
             this.layoutViewCard1.Name = "layoutViewCard1";
             this.layoutViewCard1.OptionsItemText.TextToControlDistance = 5;
             this.layoutViewCard1.Text = "TemplateCard";
+            // 
+            // GcMain
+            // 
+            this.GcMain.DataMember = null;
+            this.GcMain.DataSource = this.BsContract;
+            this.GcMain.Location = new System.Drawing.Point(12, 306);
+            this.GcMain.MainView = this.GvMain;
+            this.GcMain.MenuManager = this.RcMain;
+            this.GcMain.Name = "GcMain";
+            this.GcMain.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemsluTenant1,
+            this.repositoryItemdeDateEdit1,
+            this.repositoryItemse15x21,
+            this.repositoryItemIcbCurrency1,
+            this.repositoryItemIcbPeriodType1});
+            this.GcMain.Size = new System.Drawing.Size(1411, 380);
+            this.GcMain.TabIndex = 7;
+            this.GcMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.GvMain});
+            // 
+            // GvMain
+            // 
+            this.GvMain.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn5,
+            this.gridColumn6,
+            this.gridColumn7,
+            this.gridColumn8,
+            this.gridColumn9,
+            this.gridColumn10,
+            this.gridColumn11,
+            this.gridColumn12,
+            this.gridColumn13,
+            this.gridColumn14,
+            this.gridColumn15,
+            this.gridColumn16,
+            this.gridColumn17,
+            this.gridColumn18,
+            this.gridColumn19,
+            this.gridColumn20,
+            this.gridColumn21,
+            this.gridColumn22,
+            this.gridColumn23,
+            this.gridColumn24,
+            this.gridColumn25,
+            this.gridColumn26,
+            this.gridColumn27,
+            this.gridColumn28,
+            this.gridColumn29,
+            this.gridColumn30,
+            this.gridColumn31,
+            this.gridColumn32,
+            this.colContractEndDate1,
+            this.gridColumn33});
+            this.GvMain.GridControl = this.GcMain;
+            this.GvMain.Name = "GvMain";
+            this.GvMain.OptionsBehavior.Editable = false;
+            this.GvMain.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.MouseDown;
+            this.GvMain.OptionsBehavior.ReadOnly = true;
+            this.GvMain.OptionsFind.AlwaysVisible = true;
+            this.GvMain.OptionsPrint.AutoWidth = false;
+            this.GvMain.OptionsSelection.MultiSelect = true;
+            this.GvMain.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect;
+            this.GvMain.OptionsView.ColumnAutoWidth = false;
+            this.GvMain.OptionsView.EnableAppearanceEvenRow = true;
+            this.GvMain.OptionsView.EnableAppearanceOddRow = true;
+            this.GvMain.OptionsView.ShowAutoFilterRow = true;
+            this.GvMain.OptionsView.ShowFooter = true;
+            this.GvMain.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.GvMain_FocusedRowChanged);
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "Kayıt No";
+            this.gridColumn5.FieldName = "Id";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 18;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "Kiracı";
+            this.gridColumn6.ColumnEdit = this.repositoryItemsluTenant1;
+            this.gridColumn6.FieldName = "TenantId";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 1;
+            // 
+            // repositoryItemsluTenant1
+            // 
+            this.repositoryItemsluTenant1.AutoHeight = false;
+            this.repositoryItemsluTenant1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemsluTenant1.Name = "repositoryItemsluTenant1";
+            this.repositoryItemsluTenant1.PopupFormSize = new System.Drawing.Size(600, 600);
+            this.repositoryItemsluTenant1.View = this.gridView1;
+            // 
+            // gridView1
+            // 
+            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsFind.AllowFindPanel = false;
+            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "Sözleşme No";
+            this.gridColumn7.FieldName = "ContactNo";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 2;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.Caption = "Sözleşme Başlangıç Tarihi";
+            this.gridColumn8.ColumnEdit = this.repositoryItemdeDateEdit1;
+            this.gridColumn8.FieldName = "ContractStartDate";
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 4;
+            // 
+            // repositoryItemdeDateEdit1
+            // 
+            this.repositoryItemdeDateEdit1.AutoHeight = false;
+            this.repositoryItemdeDateEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemdeDateEdit1.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemdeDateEdit1.Name = "repositoryItemdeDateEdit1";
+            // 
+            // gridColumn9
+            // 
+            this.gridColumn9.Caption = "Sözleşme Bitiş Tarihi";
+            this.gridColumn9.ColumnEdit = this.repositoryItemdeDateEdit1;
+            this.gridColumn9.FieldName = "ContractEndDate";
+            this.gridColumn9.Name = "gridColumn9";
+            this.gridColumn9.Visible = true;
+            this.gridColumn9.VisibleIndex = 3;
+            // 
+            // gridColumn10
+            // 
+            this.gridColumn10.Caption = "Kira Tutarı";
+            this.gridColumn10.ColumnEdit = this.repositoryItemse15x21;
+            this.gridColumn10.FieldName = "RentAmount";
+            this.gridColumn10.Name = "gridColumn10";
+            this.gridColumn10.Visible = true;
+            this.gridColumn10.VisibleIndex = 5;
+            // 
+            // repositoryItemse15x21
+            // 
+            this.repositoryItemse15x21.AutoHeight = false;
+            this.repositoryItemse15x21.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemse15x21.Name = "repositoryItemse15x21";
+            // 
+            // gridColumn11
+            // 
+            this.gridColumn11.Caption = "Kdv";
+            this.gridColumn11.ColumnEdit = this.repositoryItemse15x21;
+            this.gridColumn11.FieldName = "TaxAmount";
+            this.gridColumn11.Name = "gridColumn11";
+            this.gridColumn11.Visible = true;
+            this.gridColumn11.VisibleIndex = 6;
+            // 
+            // gridColumn12
+            // 
+            this.gridColumn12.Caption = "Toplam Tuta";
+            this.gridColumn12.ColumnEdit = this.repositoryItemse15x21;
+            this.gridColumn12.FieldName = "TotalAmount";
+            this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.Visible = true;
+            this.gridColumn12.VisibleIndex = 7;
+            // 
+            // gridColumn13
+            // 
+            this.gridColumn13.Caption = "Döviz Cinsi";
+            this.gridColumn13.ColumnEdit = this.repositoryItemIcbCurrency1;
+            this.gridColumn13.FieldName = "RentCurrencyId";
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 8;
+            // 
+            // repositoryItemIcbCurrency1
+            // 
+            this.repositoryItemIcbCurrency1.AutoHeight = false;
+            this.repositoryItemIcbCurrency1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemIcbCurrency1.Name = "repositoryItemIcbCurrency1";
+            // 
+            // gridColumn14
+            // 
+            this.gridColumn14.Caption = "Kira Periyodu";
+            this.gridColumn14.ColumnEdit = this.repositoryItemIcbPeriodType1;
+            this.gridColumn14.FieldName = "RentPeriod";
+            this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.Visible = true;
+            this.gridColumn14.VisibleIndex = 9;
+            // 
+            // repositoryItemIcbPeriodType1
+            // 
+            this.repositoryItemIcbPeriodType1.AutoHeight = false;
+            this.repositoryItemIcbPeriodType1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemIcbPeriodType1.Name = "repositoryItemIcbPeriodType1";
+            // 
+            // gridColumn15
+            // 
+            this.gridColumn15.Caption = "Kira Periyot Notu";
+            this.gridColumn15.FieldName = "RentPeriodNot";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 10;
+            // 
+            // gridColumn16
+            // 
+            this.gridColumn16.Caption = "Depozito Tutar";
+            this.gridColumn16.ColumnEdit = this.repositoryItemse15x21;
+            this.gridColumn16.FieldName = "DepositAmount";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 11;
+            // 
+            // gridColumn17
+            // 
+            this.gridColumn17.Caption = "Deposito Döviz Cinsi";
+            this.gridColumn17.ColumnEdit = this.repositoryItemIcbCurrency1;
+            this.gridColumn17.FieldName = "DepCurrencyId";
+            this.gridColumn17.Name = "gridColumn17";
+            this.gridColumn17.Visible = true;
+            this.gridColumn17.VisibleIndex = 12;
+            // 
+            // gridColumn18
+            // 
+            this.gridColumn18.Caption = "Peşinat Tutar";
+            this.gridColumn18.ColumnEdit = this.repositoryItemse15x21;
+            this.gridColumn18.FieldName = "AdvancePayment";
+            this.gridColumn18.Name = "gridColumn18";
+            this.gridColumn18.Visible = true;
+            this.gridColumn18.VisibleIndex = 13;
+            // 
+            // gridColumn19
+            // 
+            this.gridColumn19.Caption = "Peşinat Döviz Cinsi";
+            this.gridColumn19.ColumnEdit = this.repositoryItemIcbCurrency1;
+            this.gridColumn19.FieldName = "APCurrencyId";
+            this.gridColumn19.Name = "gridColumn19";
+            this.gridColumn19.Visible = true;
+            this.gridColumn19.VisibleIndex = 14;
+            // 
+            // gridColumn20
+            // 
+            this.gridColumn20.Caption = "Sözleşme Yenileme Periyodu";
+            this.gridColumn20.ColumnEdit = this.repositoryItemIcbPeriodType1;
+            this.gridColumn20.FieldName = "RentAdditionPeriod";
+            this.gridColumn20.Name = "gridColumn20";
+            this.gridColumn20.Visible = true;
+            this.gridColumn20.VisibleIndex = 15;
+            // 
+            // gridColumn21
+            // 
+            this.gridColumn21.Caption = "Sözleşme Kira Artış Oranı";
+            this.gridColumn21.ColumnEdit = this.repositoryItemse15x21;
+            this.gridColumn21.FieldName = "RentAdditionRate";
+            this.gridColumn21.Name = "gridColumn21";
+            this.gridColumn21.Visible = true;
+            this.gridColumn21.VisibleIndex = 16;
+            // 
+            // gridColumn22
+            // 
+            this.gridColumn22.Caption = "Söleşme Yenileme Notu";
+            this.gridColumn22.FieldName = "RentAdditionNote";
+            this.gridColumn22.Name = "gridColumn22";
+            this.gridColumn22.Visible = true;
+            this.gridColumn22.VisibleIndex = 17;
+            // 
+            // gridColumn23
+            // 
+            this.gridColumn23.Caption = "Kayıt Tarihi";
+            this.gridColumn23.FieldName = "CreatedDate";
+            this.gridColumn23.Name = "gridColumn23";
+            this.gridColumn23.OptionsColumn.AllowShowHide = false;
+            this.gridColumn23.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn24
+            // 
+            this.gridColumn24.Caption = "Kayıt Sahibi";
+            this.gridColumn24.FieldName = "CreatedBy";
+            this.gridColumn24.Name = "gridColumn24";
+            this.gridColumn24.OptionsColumn.AllowShowHide = false;
+            this.gridColumn24.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn25
+            // 
+            this.gridColumn25.Caption = "Güncelleme Tarihi";
+            this.gridColumn25.FieldName = "ModifiedDate";
+            this.gridColumn25.Name = "gridColumn25";
+            this.gridColumn25.OptionsColumn.AllowShowHide = false;
+            this.gridColumn25.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn26
+            // 
+            this.gridColumn26.Caption = "Son Güncelleyen";
+            this.gridColumn26.FieldName = "ModifiedBy";
+            this.gridColumn26.Name = "gridColumn26";
+            this.gridColumn26.OptionsColumn.AllowShowHide = false;
+            this.gridColumn26.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn27
+            // 
+            this.gridColumn27.FieldName = "DeletedDate";
+            this.gridColumn27.Name = "gridColumn27";
+            this.gridColumn27.OptionsColumn.AllowShowHide = false;
+            this.gridColumn27.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn28
+            // 
+            this.gridColumn28.FieldName = "DeletedBy";
+            this.gridColumn28.Name = "gridColumn28";
+            this.gridColumn28.OptionsColumn.AllowShowHide = false;
+            this.gridColumn28.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn29
+            // 
+            this.gridColumn29.FieldName = "IsDeleted";
+            this.gridColumn29.Name = "gridColumn29";
+            this.gridColumn29.OptionsColumn.AllowShowHide = false;
+            this.gridColumn29.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn30
+            // 
+            this.gridColumn30.FieldName = "IsEdit";
+            this.gridColumn30.Name = "gridColumn30";
+            this.gridColumn30.OptionsColumn.AllowShowHide = false;
+            this.gridColumn30.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn31
+            // 
+            this.gridColumn31.FieldName = "RentContractExpenses";
+            this.gridColumn31.Name = "gridColumn31";
+            this.gridColumn31.OptionsColumn.AllowShowHide = false;
+            this.gridColumn31.OptionsColumn.ShowInCustomizationForm = false;
+            // 
+            // gridColumn32
+            // 
+            this.gridColumn32.FieldName = "RentContractRealities";
+            this.gridColumn32.Name = "gridColumn32";
+            // 
+            // colContractEndDate1
+            // 
+            this.colContractEndDate1.FieldName = "ContractEndDate";
+            this.colContractEndDate1.Name = "colContractEndDate1";
+            this.colContractEndDate1.Visible = true;
+            this.colContractEndDate1.VisibleIndex = 19;
+            // 
+            // gridColumn33
+            // 
+            this.gridColumn33.Caption = "Ödendi";
+            this.gridColumn33.FieldName = "IsPaid";
+            this.gridColumn33.Name = "gridColumn33";
+            this.gridColumn33.Visible = true;
+            this.gridColumn33.VisibleIndex = 20;
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.GcMain;
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 294);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(1415, 384);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem2.TextVisible = false;
             // 
             // FrmInsurancePolicy
             // 
@@ -566,30 +909,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.tileView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GvInsurancePolicy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GcRentContract)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GvRentContract)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BsContract)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutViewCard1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GcMain)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GvMain)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemsluTenant1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemdeDateEdit1.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemdeDateEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemse15x21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemIcbCurrency1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemIcbPeriodType1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private NetlineControls.GcList GcRentContract;
-        private NetlineControls.GvList GvRentContract;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private NetlineControls.GcList GcInsurancePolicy;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
         private System.Windows.Forms.BindingSource BsContract;
         private DevExpress.XtraGrid.Views.Tile.TileView tileView1;
-        private DevExpress.XtraGrid.Views.Layout.LayoutView layoutView1;
-        private NetlineControls.GvList gvList1;
         private DevExpress.XtraGrid.Views.Card.CardView cardView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -620,5 +962,44 @@
         private DevExpress.XtraGrid.Columns.TileViewColumn columnAmount;
         private DevExpress.XtraGrid.Columns.TileViewColumn columnStatu;
         private DevExpress.XtraGrid.Columns.TileViewColumn columnPaid;
+        private NetlineControls.GcList GcMain;
+        private NetlineControls.GvList GvMain;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
+        private RentControls.RepositoryItemsluTenant repositoryItemsluTenant1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private RentControls.RepositoryItemdeDateEdit repositoryItemdeDateEdit1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
+        private RentControls.RepositoryItemse15x2 repositoryItemse15x21;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
+        private RentControls.RepositoryItemIcbCurrency repositoryItemIcbCurrency1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
+        private RentControls.RepositoryItemIcbPeriodType repositoryItemIcbPeriodType1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn17;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn18;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn19;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn20;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn21;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn22;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn23;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn24;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn25;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn26;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn27;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn28;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn29;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn30;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
+        private DevExpress.XtraGrid.Columns.GridColumn colContractEndDate1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn33;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
     }
 }

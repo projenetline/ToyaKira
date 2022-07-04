@@ -398,10 +398,6 @@ C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Infrastructure\Rent.Business\
 C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.csproj.CopyComplete
 C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.dll
 C:\Users\NETLINE YAZILIM\Documents\Github\Toya\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.pdb
-C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.csproj.AssemblyReference.cache
-C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.csproj.CoreCompileInputs.cache
-C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.dll
-C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.pdb
 C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\bin\Debug\DbFiles\config.xml
 C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\bin\Debug\Rent.Business.dll.config
 C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\bin\Debug\Rent.Business.dll
@@ -482,4 +478,8 @@ C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\
 C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
 C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
 C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.csproj.AssemblyReference.cache
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.csproj.CoreCompileInputs.cache
 C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.csproj.CopyComplete
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.dll
+C:\Users\NETLINE YAZILIM\Documents\Github\MotorAsin\ToyaKira\Src\Infrastructure\Rent.Business\obj\Debug\Rent.Business.pdb

@@ -7,14 +7,14 @@
     <Password>sas</Password>
   </ConnectionSettings>
   <LogoConn>
-    <LogoDBServername>DESKTOP-QOBJVU7</LogoDBServername>
-    <LogoDBDatabasename>LOGO</LogoDBDatabasename>
+    <LogoDBServername>10.0.0.9</LogoDBServername>
+    <LogoDBDatabasename>TIGERPLUS</LogoDBDatabasename>
     <LogoDBUsername>sa</LogoDBUsername>
-    <LogoDBPassword>sas</LogoDBPassword>
-    <LogoAppUsername>LOGO</LogoAppUsername>
-    <LogoAppPassword>LOGO</LogoAppPassword>
+    <LogoDBPassword>net_123</LogoDBPassword>
+    <LogoAppUsername>sa</LogoAppUsername>
+    <LogoAppPassword>net_123</LogoAppPassword>
     <LogoAppPrNr>1</LogoAppPrNr>
-    <LogoAppFirmNr>1</LogoAppFirmNr>
+    <LogoAppFirmNr>46</LogoAppFirmNr>
   </LogoConn>
 </Netline>
 

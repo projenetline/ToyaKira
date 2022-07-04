@@ -12,5 +12,6 @@ namespace Rent.Domain.Concrete.Models.Logo
         public int CLIENTREF { get; set; }
         public DateTime DATE_ { get; set; }
         public double AMOUNT { get; set; }
+        public string LINEEXP { get; set; }
     }
 }
