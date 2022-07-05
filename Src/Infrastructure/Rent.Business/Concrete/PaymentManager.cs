@@ -226,7 +226,7 @@ namespace Rent.Business.Concrete
                     int totalPaidPolicy = policyList.Where(s => s.IsPaid == true).ToList().Count;
                     if (bnfList.Count > totalPaidPolicy)
                     {
-                        for (int i = totalPaidPolicy; i < bnfList.Count; i++)
+                        for (int i = totalPaidPolicy-1; i < bnfList.Count; i++)
                         {
                             policy = policyList.Where(x => x.IsPaid == false).OrderBy(x => x.CreatedDate).FirstOrDefault();
                             if (policy != null)

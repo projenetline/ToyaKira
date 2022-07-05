@@ -27,7 +27,6 @@ namespace Rent.Service
                   x.SetDescription("Netline Kira Programý - Logo arasýn da ödemeleri kontrol eden servistir.");
               });
             Environment.ExitCode= (int)Convert.ChangeType(exitCode, exitCode.GetTypeCode());
-            Console.ReadKey();
         }
     }
 }
